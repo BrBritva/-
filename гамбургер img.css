@@ -32,12 +32,12 @@ position: relative;
     grid-gap: 10px;
     }
     .image-item img {
-      width: 50%; /* устанавливаем ширину */
+      width: 100%; /* устанавливаем ширину */
       height: 100px; /* устанавливаем высоту */
     object-fit: cover;
     }
     .image-item {
-    width: 200%;
+    width: auto;
     }
 }
 
