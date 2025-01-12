@@ -1,0 +1,74 @@
+.img_fon{
+    width: 100%;
+height: auto;
+max-height: 100%;
+position: relative;
+}
+
+/* ГАЛЕРРЕЯ */
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 15px;
+}
+
+.image-item {
+    width: 100%;
+}
+
+.image-item img {
+    width: 100%; /* устанавливаем ширину */
+    height: 200px; /* устанавливаем высоту */
+    object-fit: cover;
+    cursor: auto ;
+}
+
+
+@media not screen and (min-width: 738px) {
+    .image-grid {
+        flex: 0 2 calc(50% - 20px);
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+    }
+    .image-item img {
+      width: 50%; /* устанавливаем ширину */
+      height: 100px; /* устанавливаем высоту */
+    object-fit: cover;
+    }
+    .image-item {
+    width: 200%;
+    }
+}
+
+
+
+/* .text-fon{
+    position: absolute;
+    top: 142%;
+    color: black;
+    width: 100%;
+    height: 132%;
+max-height: 132%;
+    background: #faf8f83a;
+    padding: 60px;
+    text-align: left;
+    line-height: 35px;
+    } */
+    /* .info-text h2{
+        font-size: 47px;
+    } */
+    @media (max-width: 738px){
+        /* .text-fon{
+            font-size: 15px;
+            top: 10%;
+            -webkit-text-stroke: none;
+            width: 9%;
+            height: 10%;
+max-height: 10%;
+            font: bold 4px/7px Helvetica, Sans-Serif;
+        }
+        .info-text h2{
+            font-size: 7px;
+        } */
+    }

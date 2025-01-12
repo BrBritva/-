@@ -1,0 +1,17 @@
+.container {
+    cursor: pointer;
+}
+.b1, .b2, .b3 {
+    width: 36px;
+    height: 5px;
+    background-color: #000;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+.change .b1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+.change .b3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+.change .b2 {opacity: 0;}

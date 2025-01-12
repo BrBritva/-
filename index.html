@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="гамбургер.css">
+<link rel="stylesheet" href="гамбургер nav.css">
+<link rel="stylesheet" href="гамбургер video.css">
+<link rel="stylesheet" href="гамбургер text.css">
+<link rel="stylesheet" href="гамбургер img.css">
+<link rel="stylesheet" href="гамбургер меню.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тёплая Медведица</title>
+</head>
+<body>
+    <header class="menu">
+        <div class="menu-wrap">
+            <img src="logo1.jpg" class="img-logo" alt="Logo">
+            <input type="checkbox" id="checkbox"  >
+            <nav >
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Как доехать</a></li>
+                    <li><a href="#">Походы выходного дня</a></li>
+                    <li><a href="#">События</a></li>
+                    <!-- <li><div class="dropdown">
+                        <button class="dropbtn">Походы выходного дня</button>
+                        <div class="dropdown-content">
+                        <a href="#">Маршрут №1 «Алаунские горы»</a>
+                        <a href="#">Маршрут №2 «Усадьба Ф. Н. Глинки»</a>
+                        <a href="#">Маршрут №3 «Кидомля»</a>
+                        <a href="#">Маршрут №4 «Замытье»</a>
+                        <a href="#">Маршрут №5 «Фестивальная площадка»</a>
+                        </div>
+                    </div></li> -->
+                    <!-- <li><div class="dropdown">
+                        <button class="dropbtn">События</button>
+                        <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        </div>
+                    </div></li> -->
+                    <li><a href="#">Лавка сувениров</a></li>
+                    <li><a href="#">Волонтерский стан "Ватага"</a></li>
+                </ul>
+            </nav>
+            <label for="checkbox"><div class="container" onclick="burgerMenu(this)">
+                <div class="b1"></div>
+                <div class="b2"></div>
+                <div class="b3"></div>
+            </div></label>
+            <script>function burgerMenu(icon) {
+                icon.classList.toggle("change");
+            }</script>
+        </div>
+    </header>
+    <main class="container-warpper">
+        <article>
+            <div class="info">
+                <div class="video-box">     
+                    <video class="video_bg" src="video-fon_01 (4).webm" type="video/webm" width="1348"  preload="auto" autoplay="autoplay" loop="loop" muted="" playsinline="playsinline" >         
+                    </video>
+                    <div class="overlay">
+                        <div class="overlay-1">
+                            <h1>«Тёплая медведица»</h1>
+                            <p>фестивально-кемпинговая площадка</p>
+                        </div>
+                        <!-- <div class="overlay-2">
+                            <h2>Обустроенная территория</h2>
+                        </div>
+                        <div class="overlay-3">
+                            <h2>Еденения с природой<br>вдали от города</h2>
+                        </div>
+                        <div class="overlay-4">
+                            <h2>Уникальная и самобытная<br>атмосфера</h2>
+                        </div> -->
+                    </div>
+                    
+                </div> 
+            </div>
+        </article>
+        <text>
+            <div class="info-text">
+                <div class="text">
+                    <p>Тёплая Медведица - самобытное место находящееся в центре Тверских лесов посреди хвойного леса вдоль реки Медведица! <br> Это место для экологического, детского и семейного туризма, здорового образа жизни. <br> От территории кемпинга начинаються увлекательные пешие и водные тропы древней истории. </p>
+                </div>
+            </div>
+            <div class="info-text-1">
+                <!-- <div class="img-fon">
+                    <img  class="img_fon" src="idol1.jpg" alt="Идол в поле">
+                </div> -->
+                <div class="text-fon">
+                    <!-- <h2>Что вы найдёте на территории?</h2> 
+                    Оборудованная площадка, где сможете установить <br>палатку на живописной поляне или в сосновом бору, <br>организованые пешие походы и cплавы по реке,<br> посещение фестивалей и значимых исторических памятников. <br> <br><br> После активного дня, ты сидишь у костра, слушая треск дров <br>и шелест листьев, а вокруг тебя – только природа. <br> Ночью, когда всё затихнет, можно наблюдать за звёздным небом,<br> слушать шёпот ветра и чувствовать себя частью этого огромного мира. <br><br><br>Экотуризм помогает отвлечься от суеты городской жизни,<br> восстановить силы и зарядиться энергией природы. -->
+                    <div class="text">
+                            <h2>Что вы найдёте на<br> территории?</h2>
+                            <p p class="inf">Оборудованная площадка, где сможете установить палатку на живописной поляне или в сосновом бору, организованые пешие походы и cплавы по реке, посещение фестивалей и значимых исторических памятников.</p>
+                            <p p class="inf">После активного дня, ты сидишь у костра, слушая треск дров и шелест листьев, а вокруг тебя – только природа. Ночью, когда всё затихнет, можно наблюдать за звёздным небом, слушать шёпот ветра и чувствовать себя частью этого огромного мира.</p>
+                            <p p class="inf">Экотуризм помогает отвлечься от суеты городской жизни, восстановить силы и зарядиться энергией природы.</p>
+                    </div>
+                </div>
+            </div>
+        </text>
+        <div class="arrow-8"></div>
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="Сплав.jpg" alt="Image 1">
+            </div>
+            <div class="image-item">
+                <img src="2.jpg" alt="Image 2">
+            </div>
+            <div class="image-item">
+                <img src="8.jpg" alt="Image 3">
+            </div>
+            <div class="image-item">
+                <img src="1.jpg" alt="Image 6">
+            </div>
+            <div class="image-item">
+                <img src="15.jpg" alt="Image 5">
+            </div>
+            <div class="image-item">
+                <img src="5.jpg" alt="Image 4">
+            </div>
+            <div class="image-item">
+                <img src="6.jpg" alt="Image 7">
+            </div>
+            <div class="image-item">
+                <img src="12.jpg" alt="Image 7">
+            </div>
+            <div class="image-item">
+                <img src="10.jpg" alt="Image 7">
+            </div>
+            <div class="image-item">
+                <img src="9.jpg" alt="Image 7">
+            </div>
+            <div class="image-item">
+                <img src="3.jpg" alt="Image 7">
+            </div>
+            <div class="image-item">
+                <img src="4.jpg" alt="Image 7">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_text">
+                <h3>Как добраться до нашей площадки?</h3>
+            </div>
+            <ul>
+                <li>на машине,мотоцикле до кемпинга, где вас встретят;</li>
+                <li>на байдарке, сапе, лодке по воде до кемпинга, где вас встретят;</li>
+                <!-- <li>до рейсовый автобус с автовокзала Твери, где вас встретят;</li> -->
+                <li>на велосипеде, где вас встретят;</li>
+                <li>на воздушном шаре или вертолете, где вас тоже встретят;</li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </main>
+</body>
+</html>
