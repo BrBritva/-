@@ -42,7 +42,8 @@
     padding: 15px;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.26);
+    background: rgba(255, 255, 255, 0.322);
+    font-weight: bold;
 }
 .inf {
     margin: 20px;
