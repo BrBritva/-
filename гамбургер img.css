@@ -72,3 +72,16 @@ max-height: 10%;
             font-size: 7px;
         } */
     }
+.image-item input[type=checkbox] {
+  display: none
+}
+
+.image-item img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.image-item input[type=checkbox]:checked~img {
+  transform: scale(3);
+  cursor: zoom-out
+}
