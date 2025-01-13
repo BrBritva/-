@@ -73,7 +73,7 @@ max-height: 10%;
         } */
     }
 .image-item input[type=checkbox] {
-  display: none
+  display: none;
 }
 
 .image-item img {
@@ -83,5 +83,5 @@ max-height: 10%;
 
 .image-item input[type=checkbox]:checked~img {
   transform: scale(3);
-  cursor: zoom-out
+  cursor: zoom-out;
 }
