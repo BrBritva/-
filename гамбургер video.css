@@ -16,14 +16,14 @@ width: 850px;
 padding: 10px;
 text-align: center;
 font: bold 44px/64px Helvetica, Sans-Serif;
--webkit-text-stroke: 0.35px black;
+-webkit-text-stroke: 1px black;
 }
 @media (max-width: 738px){
     .overlay{
         font-size: 15px;
         top: 12%;
         left: 35px;
-        -webkit-text-stroke: none;
+        -webkit-text-stroke: 0.37px black;
         width: 150px;
         font: bold 14px/20px Helvetica, Sans-Serif;
     }
