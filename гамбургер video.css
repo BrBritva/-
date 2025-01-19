@@ -16,7 +16,7 @@ width: 850px;
 padding: 10px;
 text-align: center;
 font: bold 44px/64px Helvetica, Sans-Serif;
--webkit-text-stroke: 0.6px black;
+-webkit-text-stroke: 0.35px black;
 }
 @media (max-width: 738px){
     .overlay{
