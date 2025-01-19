@@ -7,7 +7,7 @@
 
 header {
     height: 70px;
-    background-color: #00ff00;
+    background-color: rgb(102 153 0);
     padding: 15px 0;
     position: fixed;
     width: 100%;
@@ -29,7 +29,7 @@ header {
 }
 nav {
     position: absolute;
-    background-color: #00ff00;;
+    background-color: rgb(102 153 0);
     top:70px;
     left:0;
     width: 100%;
