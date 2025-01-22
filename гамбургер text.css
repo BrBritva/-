@@ -77,3 +77,16 @@ h2 {
         padding-left: 5px;
     }
 }
+
+.org-inf{
+    font-size: 40px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    border-color: transparent;
+    border-style: solid;
+    }
+.org{
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
