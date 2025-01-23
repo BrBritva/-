@@ -133,6 +133,6 @@ ul li{
         font-weight: 600;
         display: flex;
         justify-content: flex-start;
-        padding-left: 5%;
+        padding: 0 80px;
     } 
 }
