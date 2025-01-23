@@ -90,3 +90,49 @@ h2 {
     margin-top: 150px;
     margin-bottom: 120px;
 }
+
+
+.card_text h3{
+    font-size: 42px;
+    line-height: 1.23;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li{
+    font-size: 20px;
+    line-height: 2.35;
+    margin-bottom: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 23%;
+} 
+@media (max-width: 738px){
+    .card_text{
+        margin-left: auto;
+    margin-right: auto;
+    }
+    .card_text h3{
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: block;
+    }
+    ul li{
+        font-size: 15px;
+        line-height: 2.35;
+        margin-bottom: 10px;
+        font-family: 'Roboto', Arial, sans-serif;
+        font-weight: 600;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 5%;
+    } 
+}
