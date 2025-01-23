@@ -101,5 +101,9 @@ display:none;
     }
     
 }
-
+.card_ya{
+    max-width: 1257px;
+    max-height: 781px;
+    padding: 0 100px 0 100px;
+}
 
