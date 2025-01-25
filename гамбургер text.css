@@ -114,6 +114,9 @@ ul li{
     justify-content: flex-start;
     padding-left: 23%;
 } 
+ul{
+    margin-bottom: 110px;
+}
 @media (max-width: 738px){
     .card_text{
         margin-left: auto;
@@ -135,4 +138,7 @@ ul li{
         justify-content: flex-start;
         padding: 0 80px;
     } 
+    ul{
+        margin-bottom: 70px;
+    }
 }
