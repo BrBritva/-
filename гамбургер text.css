@@ -128,7 +128,7 @@ ul{
     margin-bottom: 45px;
     display: block;
     }
-    ul li{
+    .card_text ul li{
         font-size: 15px;
         line-height: 2.35;
         margin-bottom: 10px;
@@ -138,7 +138,7 @@ ul{
         justify-content: flex-start;
         padding: 0 80px;
     } 
-    ul{
+   .card_text ul{
         margin-bottom: 70px;
     }
 }
