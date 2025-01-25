@@ -101,9 +101,13 @@ display:none;
     }
     
 }
-.card_ya{
+.card_ya {
+    display: block;
     max-width: 1257px;
-    max-height: 781px;
-    padding: 0 100px 0 100px;
+    height: 483px ;
+    margin: 30px auto;
 }
-
+@media (max-width: 738px) {
+    .card_ya {
+        max-height: 183px;
+    }
