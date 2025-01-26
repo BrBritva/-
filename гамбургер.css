@@ -55,7 +55,7 @@ nav ul li .dropdown-content{
 }
 nav ul li a {
     display: inline-block;
-/*     padding: 10px; */
+    padding: 10px;
     /* Добавьте ниже свои пользовательские стили, чтобы изменить отображение ссылок */
     /* color: #fc8032; */
     color: black;
