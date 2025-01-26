@@ -105,8 +105,8 @@ h2 {
 }
 
 .card li{
-    font-size: 12px;
-    line-height: 1.35;
+    font-size: 20px;
+    line-height: 2.35;
     margin-bottom: 20px;
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 600;
@@ -129,8 +129,8 @@ h2 {
     display: block;
     }
     .card li{
-        font-size: 20px;
-        line-height: 2.35;
+        font-size: 15px;
+        line-height: 1.35;
         margin-bottom: 10px;
         font-family: 'Roboto', Arial, sans-serif;
         font-weight: 600;
